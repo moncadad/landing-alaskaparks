@@ -1,0 +1,5 @@
+fixes to be done
+-------------------
+changes: the background images either to 
+resize or make them smaller from the get go 
+reason: to big when loaded in mobile

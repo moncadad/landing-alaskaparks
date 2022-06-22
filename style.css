@@ -1,0 +1,198 @@
+﻿:root {
+	--primary-color: #0e2464;
+	--secondary-color: #ffc400;
+	--font-color: #2c2c2c;
+	--btn-pimary-color: var(--secondary-color);
+	--btn-secondary-color: var(--secondary-color);
+}
+
+html,
+body {
+	height: 100%;
+	width: 100%;
+	font-family: sans-serif;
+}
+
+.navbar {
+	background-color: var(--primary-color);
+	padding: 1% 0;
+	font-size: 1.2em;
+}
+
+.navbar-brand {
+	min-height: 55px;
+	padding: 0 15px 5px;
+}
+
+.navbar-default .navbar-nav li a {
+	color: #d5d5d5;
+}
+
+.navbar-default .navbar-nav li a:hover {
+	color: var(--btn-secondary-color);
+}
+
+h2,
+h4 {
+	font-weight: 600;
+	color: var(--pimary-color);
+}
+
+
+/* home */
+#home {
+	background: url(img-parks/cover.jpg) no-repeat center fixed;
+	display: table;
+	height: 100%;
+	position: relative;
+	width: 100%;
+	background-size: cover;
+}
+
+.landing-text {
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.landing-text h1 {
+	font-size: 900%;
+	font-weight: 700;
+	font-family: 'Lobster', cursive, sans-serif;
+	color: #ffffff;
+	text-shadow: 2px 3px rgba(8, 8, 8, 0.8);
+}
+
+.landing-text h3 {
+	color: #00a6ff;
+	font-weight: 900;
+	font-size: 1.4rem;
+	text-shadow: 1px 2px rgba(8, 8, 8, 0.8);
+}
+
+.landing-text .btn-yellow {
+	background-color: var(--primary-color);
+	color: #ffffff;
+	border: none;
+	border-radius: 80px;
+	padding: 5px 20px;
+	margin-top: 1.5rem;
+
+	box-shadow: 1px 1px 2px 1px rgba(255, 255, 255, 0.182);
+}
+
+.btn-yellow:hover,
+.btn-yellow:active {
+	background-color: #ffffff;
+	color: #0e2464;
+
+}
+
+
+
+.park-link {
+	padding: 10px 25px;
+	border-radius: 25px;
+	background-color: var(--primary-color);
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.park-link:hover {
+	color: #00a6ff;
+	text-decoration: none;
+}
+
+
+.padding {
+	padding: 80px 10px;
+}
+
+.padding img {
+	width: 100%;
+}
+
+.park-one {
+	margin-bottom: 2.5rem;
+}
+
+.park-two {
+	margin-bottom: 4.5rem;
+}
+
+#fixed {
+	background: url(img-parks/lights.jpg) no-repeat center fixed;
+	display: table;
+	height: 80%;
+	position: relative;
+	width: 100%;
+	background-size: cover;
+
+}
+
+footer {
+	width: 100%;
+	background-color: var(--primary-color);
+	padding: 5% 5% 105 5%;
+	color: #fff;
+}
+footer h3 {
+	text-decoration: underline;
+	padding-bottom: .5rem;
+}
+
+.fa {
+	padding: 15px;
+	font-size: 25px;
+	color: #fff;
+}
+
+.fa:hover {
+	color: #00a6ff;
+	text-decoration: none;
+
+}
+
+.icon {
+	max-width: 200px;
+}
+
+@media (max-width: 768px) {
+	.landing-text h1 {
+		font-size: 500%;
+	}
+
+	.fa {
+		font-size: 20px;
+		padding: 10px;
+	}
+
+	.icon {
+		padding-top: 5%;
+		max-width: 100px;
+	}
+}
+
+@media (max-width: 768px) {
+	.padding {
+		padding: 3rem 1rem;
+	}
+
+	#home {
+		background: url(img-parks/cover.jpg) no-repeat center;
+		display: table;
+		height: 100%;
+		position: relative;
+		width: 100%;
+		background-size: cover;
+	}
+
+	#fixed {
+		background: url(img-parks/lights.jpg) no-repeat center;
+		display: table;
+		height: 80%;
+		position: relative;
+		width: 100%;
+		background-size: cover;
+	}
+}
